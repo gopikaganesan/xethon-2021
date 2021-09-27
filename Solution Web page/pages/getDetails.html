@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider Review</title>
+    <link rel="stylesheet" href="css/" />
+    <script src="javaScript/"></script>
+</head>
+<body>
+    
+    <div id="headerContent"></div>
+
+    <div id="getInput">
+      <h1>Prediction Tool for new Hires</h1>
+      <p id="age">
+        Age
+        <input type="number" id="age" min="18" max="60" />
+      </p>
+
+      <label for="Department">Department </label>
+      <select id="dept" name="Dept">
+        <option value="option1">option 1</option>
+        <option value="option2">option 2</option>
+        <option value="option3">option 3</option>
+        <option value="option4">option 4</option>
+      </select>
+
+      <p id="satisfaction">Satisfaction
+        <form>
+          <input type="radio" id="one" name="satisfaction" value=1 />
+          <label for="one">1 </label>
+          <input type="radio" id="two" name="satisfaction" value=2 />
+          <label for="two">2 </label>
+          <input type="radio" id="three" name="satisfaction" value=3 />
+          <label for="three">3 </label>
+          <input type="radio" id="four" name="satisfaction" value=4 />
+          <label for="four">4 </label>
+          <input type="radio" id="five" name="satisfaction" value=5 />
+          <label for="five">5 </label>
+        </form>
+      </p>
+
+      <br /><br />
+
+      <input type="button" value="Submit" id="button" onclick="infoSubmit()" />
+
+    </div>
+
+    <div id="endCard"></div>
+
+</body>
+</html>
